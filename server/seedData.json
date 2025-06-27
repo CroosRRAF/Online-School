@@ -1,0 +1,664 @@
+{
+  "modules": [
+    {
+      "_id": "685dffb5690767b7092c1576",
+      "moduleName": "Mathematics",
+      "instructor": "Mr Thiru",
+      "description": "this si course description",
+      "credit": 4
+    },
+    {
+      "_id": "685dffb5690767b7092c1577",
+      "moduleName": "Database Systems",
+      "instructor": "Mr Thiru",
+      "description": "this si course description",
+      "credit": 3
+    },
+    {
+      "_id": "685dffb5690767b7092c1578",
+      "moduleName": "Programming Fundamentals",
+      "instructor": "Mr Thiru",
+      "description": "this si course description",
+      "credit": 3
+    },
+    {
+      "_id": "685dffb5690767b7092c1579",
+      "moduleName": "Network Security",
+      "instructor": "Mr Thiru",
+      "description": "this si course description",
+      "credit": 3
+    },
+    {
+      "_id": "685dffb5690767b7092c157a",
+      "moduleName": "Data Structures",
+      "instructor": "Mr Thiru",
+      "description": "this si course description",
+      "credit": 3
+    },
+    {
+      "_id": "685dffb5690767b7092c157b",
+      "moduleName": "Web Development",
+      "instructor": "Mr Thiru",
+      "description": "this si course description",
+      "credit": 3
+    },
+    {
+      "_id": "685dffb5690767b7092c157c",
+      "moduleName": "Machine Learning",
+      "instructor": "Mr Thiru",
+      "description": "this si course description",
+      "credit": 4
+    },
+    {
+      "_id": "685dffb5690767b7092c157d",
+      "moduleName": "Software Engineering",
+      "instructor": "Mr Thiru",
+      "description": "this si course description",
+      "credit": 3
+    }
+  ],
+  "courses": [
+    {
+      "_id": "5552dff9-0fa5-4b44-b001-fc9a7b44056d",
+      "name": "Software Engineering",
+      "description": "Bachelor of Software Engineering",
+      "modules": [
+        "685dffb5690767b7092c1578",
+        "685dffb5690767b7092c157a",
+        "685dffb5690767b7092c157d",
+        "685dffb5690767b7092c157b"
+      ]
+    },
+    {
+      "_id": "add722aa-c79e-4b88-9a6a-9ff32b2391be",
+      "name": "Data Science",
+      "description": "Bachelor of Data Science",
+      "modules": [
+        "685dffb5690767b7092c1576",
+        "685dffb5690767b7092c1577",
+        "685dffb5690767b7092c157c"
+      ]
+    },
+    {
+      "_id": "5c1a319f-977a-47de-9e78-6ef5e8940980",
+      "name": "Cyber Security",
+      "description": "Bachelor of Cyber Security",
+      "modules": [
+        "685dffb5690767b7092c1579",
+        "685dffb5690767b7092c1577",
+        "685dffb5690767b7092c1578"
+      ]
+    }
+  ],
+  "students": [
+    {
+      "_id": "685e0184690767b7092c1585",
+      "studentID": "SE001",
+      "name": "John Smith",
+      "email": "john@school.edu",
+      "password": "$2b$10$7a8T2F98UOQQPdJHOBpiwOjKboXmy3TLEIH88TQ52GbTk3Bd61EMC",
+      "birth": "2000-05-15T00:00:00Z",
+      "gender": "male",
+      "address": "123 Main St",
+      "course": "5552dff9-0fa5-4b44-b001-fc9a7b44056d",
+      "status": "active"
+    },
+    {
+      "_id": "685e0184690767b7092c1586",
+      "studentID": "DS001",
+      "name": "Sarah Johnson",
+      "email": "sarah@school.edu",
+      "password": "$2b$10$7a8T2F98UOQQPdJHOBpiwOjKboXmy3TLEIH88TQ52GbTk3Bd61EMC",
+      "birth": "2001-03-22T00:00:00Z",
+      "gender": "female",
+      "address": "456 Oak Ave",
+      "course": "add722aa-c79e-4b88-9a6a-9ff32b2391be",
+      "status": "active"
+    },
+    {
+      "_id": "685e0184690767b7092c1587",
+      "studentID": "CS001",
+      "name": "Alex Wong",
+      "email": "alex@school.edu",
+      "password": "$2b$10$7a8T2F98UOQQPdJHOBpiwOjKboXmy3TLEIH88TQ52GbTk3Bd61EMC",
+      "birth": "1999-11-08T00:00:00Z",
+      "gender": "other",
+      "address": "789 Pine Rd",
+      "course": "5c1a319f-977a-47de-9e78-6ef5e8940980",
+      "status": "active"
+    }
+  ],
+  "results": [
+    {
+      "student": "685e0184690767b7092c1585",
+      "module": "685dffb5690767b7092c1578",
+      "score": 85,
+      "grade": "A"
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "module": "685dffb5690767b7092c157a",
+      "score": 78,
+      "grade": "B+"
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "module": "685dffb5690767b7092c1576",
+      "score": 92,
+      "grade": "A+"
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "module": "685dffb5690767b7092c157c",
+      "score": 88,
+      "grade": "A"
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "module": "685dffb5690767b7092c1579",
+      "score": 95,
+      "grade": "A+"
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "module": "685dffb5690767b7092c1577",
+      "score": 82,
+      "grade": "A-"
+    }
+  ],
+  "sports": [
+    {
+      "sportName": "Basketball",
+      "coach": "Coach Williams",
+      "captain": "685e0184690767b7092c1585",
+      "participants": [
+        "685e0184690767b7092c1585",
+        "685e0184690767b7092c1586"
+      ]
+    },
+    {
+      "sportName": "Chess Club",
+      "coach": "Dr. Chen",
+      "captain": "685e0184690767b7092c1587",
+      "participants": [
+        "685e0184690767b7092c1587",
+        "685e0184690767b7092c1586"
+      ]
+    }
+  ],
+  "library": [
+    {
+      "bookTitle": "Clean Code",
+      "borrowedBy": "685e0184690767b7092c1585",
+      "borrowDate": "2025-06-01T00:00:00Z",
+      "returnDate": "2025-06-30T00:00:00Z",
+      "status": "borrowed"
+    },
+    {
+      "bookTitle": "Data Science Handbook",
+      "borrowedBy": "685e0184690767b7092c1586",
+      "borrowDate": "2025-06-10T00:00:00Z",
+      "returnDate": "2025-07-10T00:00:00Z",
+      "status": "borrowed"
+    },
+    {
+      "bookTitle": "Network Security Essentials",
+      "borrowedBy": "685e0184690767b7092c1587",
+      "borrowDate": "2025-05-15T00:00:00Z",
+      "returnDate": "2025-06-15T00:00:00Z",
+      "status": "returned"
+    }
+  ],
+  "attendance": [
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-26T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-25T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-24T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-23T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-22T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-21T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-20T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-19T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-18T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-17T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-16T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-15T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-14T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-13T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-12T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-11T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-10T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-09T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-08T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-07T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-06T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-05T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-04T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-03T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-02T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-06-01T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-05-31T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-05-30T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-05-29T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1585",
+      "date": "2025-05-28T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-26T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-25T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-24T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-23T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-22T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-21T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-20T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-19T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-18T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-17T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-16T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-15T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-14T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-13T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-12T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-11T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-10T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-09T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-08T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-07T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-06T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-05T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-04T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-03T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-02T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-06-01T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-05-31T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-05-30T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-05-29T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1586",
+      "date": "2025-05-28T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-26T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-25T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-24T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-23T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-22T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-21T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-20T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-19T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-18T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-17T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-16T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-15T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-14T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-13T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-12T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-11T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-10T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-09T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-08T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-07T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-06T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-05T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-04T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-03T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-02T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-06-01T00:00:00Z",
+      "present": false
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-05-31T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-05-30T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-05-29T00:00:00Z",
+      "present": true
+    },
+    {
+      "student": "685e0184690767b7092c1587",
+      "date": "2025-05-28T00:00:00Z",
+      "present": true
+    }
+  ]
+}
