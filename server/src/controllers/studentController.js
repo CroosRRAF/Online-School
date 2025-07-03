@@ -13,21 +13,17 @@ export const getStudentDashboardData = async (req, res) => {
     const student = await Student.findById(studentId)
       .select("-password")
       .populate({
-        path: "courses", // 👈 this populates course
+        path: "courses",
         populate: {
-          path: "modules", // 👈 this populates modules in the course
-          model: "Modules",
+          path: "modules",
+          model: "Module", // ✅ correct model name
           select: "moduleName credit instructor",
         },
       })
       .populate({
         path: "sports",
-        populate: {
-          path: "courses",
-          model: "Modules",
-        },
-      })
-      .populate("sports", "sportName coach");
+        select: "sportName coach", // ✅ avoid duplicate population
+      });
 
     if (!student) {
       return res.status(404).json({ message: "Student not found" });
@@ -61,6 +57,7 @@ export const getStudentDashboardData = async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 };
+
 
 
 // Get basic student profile by ID
